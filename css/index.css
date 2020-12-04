@@ -29,8 +29,40 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
 }
+* {border: 1px solid black}
+
+header{ 
+    height:100px;
+    width:100%;
+}
+
+.logo[
+    margin-left:50px;
+]
+
+.banner { 
+    display: block;
+    margin:0 auto;
+  width: 50%;
+}
+
+
+
+
+nav{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+
+}
+
+nav a{
+    margin: 40px;
+    color:black;
+    text-decoration:none;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -47,7 +79,7 @@ table {
 	border-spacing: 0;
 }
 
-* {
+*{
     box-sizing: border-box;
 }
 
@@ -71,6 +103,8 @@ p {
     margin: 0 auto;
 }
 
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -79,7 +113,8 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.top-content .text-container { 
+    display: inline-block;
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
@@ -112,6 +147,8 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box {background-color: teal;}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -136,11 +173,13 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 2%;
+    padding: 2px 1%;
     font-size: 14px;
 }
 
 footer nav a {
+    text-decoration:none;
     color: white;
     text-decoration: none;
+
 }
