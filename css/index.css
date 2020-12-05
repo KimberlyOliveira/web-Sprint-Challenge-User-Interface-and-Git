@@ -41,24 +41,24 @@ header{
     margin-left:50px;
 ]
 
-.banner { 
-    display: block;
+
+
+.container {
+    width:800px;
     margin:0 auto;
-  width: 50%;
+}
+
+.navagation { 
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 15px;
 }
 
 
-
-
-nav{
-    display:block;
-    text-align:center;
-    text-decoration:none;
-
-}
-
-nav a{
-    margin: 40px;
+.navagation a{
+    padding: 8px;
+    font-size:14px;
     color:black;
     text-decoration:none;
 }
@@ -125,6 +125,28 @@ p {
     border-bottom: 1px dashed black;
 }
 
+#box1 {background-color: teal;}
+
+#box2 { background-color: gold;}
+
+#box3 {background-color:cadetblue;}
+
+#box4 {background-color:coral}
+
+#box5 {background-color:crimson}
+
+#box6 {background-color:forestgreen}
+
+#box7 {background-color:darkorchid}
+
+#box8 {background-color:hotpink;}
+
+#box9 {background-color:indigo}
+
+#box10 {background-color:dodgerblue}
+
+
+
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
@@ -133,7 +155,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly;.
 }
 
 .middle-content .boxes .box {
@@ -147,7 +169,6 @@ p {
     justify-content: center;
 }
 
-.middle-content .boxes .box {background-color: teal;}
 
 .bottom-content {
     display: flex;
@@ -173,7 +194,7 @@ footer nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 2px 1%;
+    padding: 14px 1%;
     font-size: 14px;
 }
 
@@ -183,3 +204,31 @@ footer nav a {
     text-decoration: none;
 
 }
+
+
+
+
+.navagation2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-top: 15px;
+}
+
+
+.navagation2 a {
+    padding: 8px;
+    font-size:14px;
+    color:black;
+    text-decoration:none;}
+
+
+.strategy , .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;}
+
+    .learn {
+        border: 5px solid black;
+        width:10px;
+        height:10px}
